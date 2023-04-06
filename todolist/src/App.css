@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+*{
+    font-family: 'Balsamiq Sans', cursive;
+}
+.container{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.maincontainer{
+    background-image:url("./nbg1.jpeg");
+    z-index: -1;
+    background-size: cover;
+    height: 800px;
+    overflow: hidden;
+}
+
+.todo{
+    border: 2px solid rgb(54, 113, 54);
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 20px;
+    padding-bottom: 9px;
+
+    text-align: left;
+    padding-left: 20px;
+    display: inline-block;
+    margin-right: 20px;
+    width: 258px;
+    max-height: 138px;
+    box-shadow: 4px 4px 5px #aaa;
+    overflow: auto;
+
+}
+
+.todocontainer{
+    width: 700px;
+    height: auto;
+    margin: auto;
+    padding-left: 25px;
+}
+.delbutton{
+    margin: auto;
+    margin-top: 10px;
+    background-color: #d22b2b;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 0 5px #aaa;
+    border: 0;
+    backface-visibility: hidden;
+    width: 60px;
+    height: 25px;
+}
+
+.addbutton{
+    border: none;
+    background-color: #388bf6;
+    color: white;
+    width: 536px;
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: "#1877f2";
+    font-weight: bolder;
+
+}
+
+.del{
+    text-align: center;
+}
+
+
+.container {
+    text-align: center;
+}
+
+.c1 {
+    text-align: center;
+    margin-top: 55px;
+}
+
+.c2 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.phone {
+    font-size-adjust: 0.8;
+    font-weight: bold;
+    padding-left: 10px;
+    width: 340px;
+    height: 40px;
+}
+
+.pass {
+    margin-top: 10px;
+    font-weight: bold;
+    width: 340px;
+    padding-left: 10px;
+    height: 40px;
+}
+
+.submit {
+    margin-top: 20px;
+    width: 355px;
+    height: 40px;
+    border: none;
+    font-weight: bolder;
+    background-color: #1877f2;
+    color: white;
+}
+
+.forgot {
+    margin-top: 17px;
+}
+
+.c2 hr {
+    margin-top: 28px;
+    width: 346px;
+}
+
+.but {
+    width: 200px;
+    height: 40px;
+    margin-top: 25px;
+    background-color: rgb(20, 192, 20);
+    font-weight: bold;
+    color: white;
+    border: none;
+}
+
+
+.name ,.roll,.phone ,.errorf ,.invalid{
+    margin-top: 10px;
+    font-weight: bold;
+    width: 340px;
+    padding-left: 10px;
+    height: 40px;
+}
+.invalid{
+    color: red;
+}
+
+
+a:link{
+    text-decoration: none;
+    color: brown;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: x-large;
+}
