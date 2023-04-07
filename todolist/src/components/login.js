@@ -2,6 +2,7 @@
 import React from 'react'
 import { useState, useContext } from 'react'
 import { useNavigate, Link } from 'react-router-dom'
+import './login.css'
 
 import CredContext from '../context/Credentials/credContext'
 
