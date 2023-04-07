@@ -24,8 +24,8 @@ const Addtodo = ({addfunc}) => {
     return (
         <div>
             <form>
-                <input type="text" placeholder='Title' value={title} onChange={(e)=>{setTitle(e.target.value)}} style={inputdim} /><br />
-                <input type="text" placeholder='Description' value={des} onChange={(e)=>{setDes(e.target.value)}} style={inputdim} /><br />
+                <input type="text" class = "Title" placeholder='Title' value={title} onChange={(e)=>{setTitle(e.target.value)}} style={inputdim} /><br />
+                <input type="text" class="Description" placeholder='Description' value={des} onChange={(e)=>{setDes(e.target.value)}} style={inputdim} /><br />
                 <button className='addbutton' onClick={(e)=>{check(e)}} >Add Todo</button><br />
             </form>
         </div>

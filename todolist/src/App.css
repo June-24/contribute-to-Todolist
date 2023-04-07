@@ -14,8 +14,8 @@
     background-image:url("./nbg1.jpeg");
     z-index: -1;
     background-size: cover;
-    height: 800px;
-    overflow: hidden;
+    scroll-behavior: smooth;
+    scroll-margin: 10px;
 }
 
 .todo{
@@ -24,7 +24,6 @@
     margin: auto;
     margin-top: 20px;
     padding-bottom: 9px;
-
     text-align: left;
     padding-left: 20px;
     display: inline-block;
@@ -34,6 +33,15 @@
     box-shadow: 4px 4px 5px #aaa;
     overflow: auto;
 
+}
+.todo p{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(95, 124, 241);
 }
 
 .todocontainer{
@@ -55,22 +63,9 @@
     height: 25px;
 }
 
-.addbutton{
-    border: none;
-    background-color: #388bf6;
-    color: white;
-    width: 536px;
-    height: 30px;
-    margin-bottom: 10px;
-    background-color: "#1877f2";
-    font-weight: bolder;
-
-}
-
 .del{
     text-align: center;
 }
-
 
 .container {
     text-align: center;
@@ -91,36 +86,36 @@
     margin-top: 100px;
 }
 
-.phone, .pass, .roll, .name {
+.phone, .pass, .roll, .name , .Title, .Description{
     margin: 10px;
     padding: 10px;
     border-radius: 5px;
     border: none;
     font-size: 19px;
     font-weight:normal;
-    background-color: #f2f2f2;
+    background-color: #dddff0;
 }
 
-.phone:hover, .pass:hover, .roll:hover, .name:hover {
-    border: 2px solid #4CAF50;
+.phone:hover, .pass:hover, .roll:hover, .name:hover , .Title:hover, .Description:hover{
+    border: 2px solid #b3b9ec;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 
-.submit {
+.submit ,.addbutton{
     width: 50%;
     margin: 10px;
     padding: 10px;
     border-radius: 5px;
     border: none;
-    background-color:#4CAF50 ;
+    background-color:#388bf6;
     color: #f2f2f2;
     font-weight: bold;
     font-size: 17px;
     cursor: pointer;
 }
 
-.submit:hover,.but:hover {
-    background-color: rgb(14, 92, 28);
+.submit:hover,.but:hover ,.addbutton:hover{
+    background-color: rgb(35, 6, 123);
     color: white;
     box-shadow:0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     
