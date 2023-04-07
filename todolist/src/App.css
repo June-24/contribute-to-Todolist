@@ -5,7 +5,11 @@
 .container{
     text-align: center;
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 .maincontainer{
     background-image:url("./nbg1.jpeg");
     z-index: -1;
@@ -87,30 +91,40 @@
     margin-top: 100px;
 }
 
-.phone {
-    font-size-adjust: 0.8;
-    font-weight: bold;
-    padding-left: 10px;
-    width: 340px;
-    height: 40px;
+.phone, .pass, .roll, .name {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 19px;
+    font-weight:normal;
+    background-color: #f2f2f2;
 }
 
-.pass {
-    margin-top: 10px;
-    font-weight: bold;
-    width: 340px;
-    padding-left: 10px;
-    height: 40px;
+.phone:hover, .pass:hover, .roll:hover, .name:hover {
+    border: 2px solid #4CAF50;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 
 .submit {
-    margin-top: 20px;
-    width: 355px;
-    height: 40px;
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
     border: none;
-    font-weight: bolder;
-    background-color: #1877f2;
+    background-color:#4CAF50 ;
+    color: #f2f2f2;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.submit:hover,.but:hover {
+    background-color: rgb(14, 92, 28);
     color: white;
+    box-shadow:0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    
+   
 }
 
 .forgot {
@@ -123,27 +137,33 @@
 }
 
 .but {
-    width: 200px;
-    height: 40px;
-    margin-top: 25px;
-    background-color: rgb(20, 192, 20);
-    font-weight: bold;
-    color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
     border: none;
+    background-color: #f2f2f2;
+    color: #4CAF50;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
 }
 
+.but:hover {
+    background-color: #4CAF50;
+    color: white;
+}
 
-.name ,.roll,.phone ,.errorf ,.invalid{
+.errorf ,.invalid{
     margin-top: 10px;
     font-weight: bold;
     width: 340px;
     padding-left: 10px;
     height: 40px;
 }
+
 .invalid{
     color: red;
 }
-
 
 a:link{
     text-decoration: none;
